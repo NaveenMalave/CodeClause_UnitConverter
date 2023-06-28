@@ -1,0 +1,108 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #C0C0C0;
+  background-image: url(/img/flora.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Form styles */
+form {
+  background-color: #C71585;
+  border-radius: 5px;
+  /* padding: 20px; */
+  margin-bottom: 20px;
+  color: #FFF0F5;
+  text-align: center;
+  font-size: large;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid #C71585;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #C71585;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #C71585;
+  
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.mb-15{
+  margin-bottom: 15px;
+}
+
+h2.main-heading {
+  padding: 50px 0 30px;
+  font-style: oblique;
+  font-weight: 800;
+  color: #C71585;
+}
+
+h3.heading {
+  margin-bottom: 15px;
+  color: #C71585;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #FFF0F5;
+  text-align: center;
+  color: #C71585;
+}
+option{
+  color: #C71585;
+  background-color: #FFF0F5;
+}
+select{
+  color: #C71585;
+  background-color: #FFF0F5;
+}
