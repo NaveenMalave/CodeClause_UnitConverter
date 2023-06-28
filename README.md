@@ -5,7 +5,7 @@
 A `unit converter`expresses the same property as a different unit of measurement. while distance can be converted from miles to kilometers, or feet, or any other measure of length.
 ## Demo
 
- link to demo : - [Live](https://naveenmalave.github.io/pass/)
+ link to demo : - [Live](https://naveenmalave.github.io/CodeClause_UnitConverter/)
  ## Technologies used
 
 - HTML
